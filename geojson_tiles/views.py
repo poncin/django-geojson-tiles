@@ -1,7 +1,7 @@
 from django.contrib.gis.geos import Polygon
 from django.http import HttpResponse, HttpResponseServerError
 from django.contrib.gis.db.models import GeometryField, MultiPointField, PointField
-from serializers import GeoJSONSerializer
+from djgeojson.serializers import Serializer as GeoJSONSerializer
 import ModestMaps
 import TileStache
 
