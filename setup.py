@@ -13,7 +13,7 @@ setup(name='django-geojson-tiles',
       include_package_data=True,
       install_requires=['Django',
                         'PIL',
-                        'django-geojson==2.1.1',
+                        'django-geojson',
                         'ModestMaps==1.4.1',
                         'TileStache==1.40.1'],
 )
